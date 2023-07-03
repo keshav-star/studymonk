@@ -1,0 +1,133 @@
+.testimonial {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0px 9px 36px #00000033;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 508px;
+  }
+  
+  .testimonial .testimonial-content {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #6f7dfb;
+    border-radius: 24px;
+    display: flex;
+    gap: 10px;
+    padding: 24px 32px;
+    position: relative;
+  }
+  
+  .testimonial .amazing-work-well {
+    color: #ffffff;
+    flex: 1;
+    font-family: "Raleway", Helvetica;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 27px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .testimonial .name-image {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 106px;
+    padding: 0px 32px;
+    position: relative;
+  }
+  
+  .testimonial .testimonial-name {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .testimonial .jane-cooper {
+    color: #023047;
+    font-family: "Raleway", Helvetica;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .testimonial .developer-sony {
+    color: #023047;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .testimonial .testimonial-image {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .testimonial .ellipse {
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .testimonial .platform-desktop {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+  
+  .testimonial .platform-mobile {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  
+  .testimonial .platform-0-desktop {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  
+  .testimonial .platform-0-mobile {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  
+  .testimonial .platform-1-desktop {
+    height: 120px;
+    padding: 0px 0px 24px;
+  }
+  
+  .testimonial .platform-1-mobile {
+    height: 97px;
+    padding: 0px 0px 42px;
+  }
+  
+  .testimonial .testimonial-image.platform-1-desktop .ellipse {
+    height: 120px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    min-width: 120px;
+  }
+  
+  .testimonial .testimonial-image.platform-1-mobile .ellipse {
+    height: 100px;
+    margin-bottom: -22.5px;
+    margin-top: -22.5px;
+    min-width: 100px;
+  }
+  

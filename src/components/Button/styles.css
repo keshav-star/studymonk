@@ -1,0 +1,84 @@
+.button {
+    border-radius: 24px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .button .button-text {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .button .pencil-alt {
+    position: relative;
+  }
+  
+  .button .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .button.platform-3-mobile {
+    padding: 12px 32px;
+  }
+  
+  .button.dark-false {
+    background-color: #da722c;
+  }
+  
+  .button.platform-3-desktop {
+    padding: 16px 32px;
+  }
+  
+  .button.icon-true {
+    align-items: center;
+  }
+  
+  .button.icon-false {
+    align-items: flex-start;
+  }
+  
+  .button.dark-true {
+    background-color: #023047;
+  }
+  
+  .button.platform-3-desktop .button-text {
+    font-size: 18px;
+  }
+  
+  .button.platform-3-mobile .button-text {
+    font-size: 16px;
+  }
+  
+  .button.platform-3-desktop .pencil-alt {
+    height: 18px;
+    min-width: 18px;
+  }
+  
+  .button.platform-3-mobile .pencil-alt {
+    height: 16px;
+    min-width: 16px;
+  }
+  
+  .button.platform-3-desktop .text-wrapper {
+    font-size: 18px;
+  }
+  
+  .button.platform-3-mobile .text-wrapper {
+    font-size: 16px;
+  }
+ 
